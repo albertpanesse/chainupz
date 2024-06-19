@@ -1,17 +1,7 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 
-const Header = () => {
-    return (
-        <header>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
-        </header>
-    );
+const Header: React.FC = () => {
+    return (<div />);
 };
 
 export default Header;

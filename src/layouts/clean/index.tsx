@@ -1,13 +1,18 @@
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
 import Header from '../../elements/header';
 import Footer from '../../elements/footer';
+import Navbar from '../../elements/navbar';
 
-const CleanLayout = ({ children }: any) => {
+const CleanLayout: React.FC = () => {
     return (
-        <div>
+        <>
             <Header />
-            {children}
+            <Navbar />
+            <Outlet />
             <Footer />
-        </div>
+        </>
     );
 };
 

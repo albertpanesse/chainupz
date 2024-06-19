@@ -1,8 +1,13 @@
-const MainContent = ({ children }: any) => {
+import React from 'react';
+
+import './styles.scss';
+import { Outlet } from 'react-router-dom';
+
+const MainContent: React.FC = () => {
     return (
         <main>
             <div className="container">
-                {children}
+                <Outlet />
             </div>
         </main>
     );
