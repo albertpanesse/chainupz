@@ -1,12 +1,12 @@
-import MainContent from '../../contents/main';
+import React from 'react';
 
-const Dashboard = () => {
+const Dashboard: React.FC = () => {
     return (
-        <MainContent>
+        <div>
             <h2>Dashboard</h2>
             <p>Welcome to your dashboard. Here, you can view and manage your account information.</p>
             {/* Add dashboard content and functionality here */}
-        </MainContent>
+        </div>
     );
 };
 

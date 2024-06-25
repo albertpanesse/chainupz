@@ -1,11 +1,11 @@
-import MainContent from '../../contents/main';
+import React from 'react';
 
-const About = () => {
+const About: React.FC = () => {
     return (
-        <MainContent>
+        <div>
             <h2>About Us</h2>
             <p>Welcomes to our About page. Learn more about our company and mission here.</p>
-        </MainContent>
+        </div>
     );
 };
 
